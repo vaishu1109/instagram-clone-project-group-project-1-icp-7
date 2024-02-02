@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+}
+.sidebar_section{
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    background: yellow;
+    padding: 20px;
+   
+}
+.menu_section{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.menu_section a{
+    width: 100%;
+    font-size: 1rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+}
+.menu_section li{
+    list-style: none;
+}
+
