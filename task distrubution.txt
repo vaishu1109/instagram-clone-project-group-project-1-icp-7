@@ -1,5 +1,6 @@
-vaishnavi-sign in sign up
-dattatray-side bar 
-yash-profile
-sagar-post
-afrin-likes
+home page - vaishnavi
+profile- dattatray
+message-yash
+search- ashwini
+reels- afrin
+Notification- sagar
