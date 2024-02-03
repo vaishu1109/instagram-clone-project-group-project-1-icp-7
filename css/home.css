@@ -5,23 +5,30 @@
     position: fixed;
     width: 20%;
     height: 100vh;
-    background: yellow;
+    background: black;
     padding: 20px;
    
 }
+.logo img{
+        width: 140px;
+}
+
 .menu_section{
-    margin-top: 15px;
-    margin-left: 5px;
+    
+        margin-top: 15px;
+        margin-left: 5px;
+    
 }
 .menu_section a{
     width: 100%;
     font-size: 1rem;
-    color: black;
+    color: #fff;
     display: flex;
     align-items: center;
     line-height: 40px;
+    text-decoration: none;
 }
-.menu_section li{
-    list-style: none;
+.menu_section .icon{
+    margin-right: 1rem;
+    font-size: 20px;
 }
-
