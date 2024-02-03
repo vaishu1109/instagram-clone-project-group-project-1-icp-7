@@ -3,4 +3,63 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #252222;
+}
+/*Common Sidebar Design */
+.main{
+    display: flex;
+}
+.sidebar_section{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background: black;
+    padding-top: 30px;
+    padding-left: 30px;
+   
+}
+.logo img{
+        width: 200px;
+}
+
+.menu_section{
+    
+        margin-top: 20px;
+        margin-left: 10px;
+    
+}
+.menu_section a{
+    width: 100%;
+    font-size: 1.1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    line-height: 55px;
+    text-decoration: none;
+}
+.menu_section a :hover,.menu_section.i{
+    color: #e2336b;
+    
+}
+.menu_section a:hover::before,
+.menu_section .active::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 2px;
+    height: 20px;
+    background: #e2336b;
+}
+.menu_section .icon {
+    margin-right: 1rem;
+    font-size: 25px;
+
+}
+.menu_section .profile_image{
+    height: 30px;
+    width: 30px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    padding-top: 10px;
+    
 }
