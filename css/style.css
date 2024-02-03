@@ -6,9 +6,7 @@ body{
     background-color: #252222;
 }
 /*Common Sidebar Design */
-.main{
-    display: flex;
-}
+
 .sidebar_section{
     position: fixed;
     width: 250px;
