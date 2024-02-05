@@ -10,11 +10,15 @@ body{
     position: fixed;
     width: 250px;
     height: 100vh;
+<<<<<<< HEAD
     background: whitesmoke;
     padding-top: 30px;
     padding-left: 30px;
     
    
+=======
+
+>>>>>>> 2932b2fdfd718b7d7ae249da513b6cc31e1da49c
 }
 .logo img{
         width: 100px;
@@ -35,19 +39,12 @@ body{
     line-height: 55px;
     text-decoration: none;
 }
-.menu_section a :hover,.menu_section.i{
-    color: #e2336b;
-    
+.menu_section .option:hover{
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s;
 }
-.menu_section a:hover::before,
-.menu_section .active::before {
-    content: '';
-    position: absolute;
-    right: 0;
-    width: 2px;
-    height: 20px;
-    background: #e2336b;
-}
+
 .menu_section .icon {
     margin-right: 1rem;
     font-size: 25px;

@@ -9,7 +9,7 @@
     min-height: 100vh; 
     padding: 20px;
     overflow: hidden;
-   
+    border-left: 1px solid #dfdbdb;
 }
 .stories{
     display: flex;
@@ -53,7 +53,7 @@
 .post{
     position: relative;
     padding-top: 0;
-    margin: 5px 15% 0 15%;
+    margin: 10px 20% 0 20%;
     background-color: whitesmoke;
 }
 .post .top{
@@ -107,7 +107,6 @@
 }
 .comment{
     width: 100%;
-    background-color: aqua;
 }
 .comment .comment_input{
     width: 100%;
@@ -115,4 +114,14 @@
     font-size: 15px;
     outline: none;
     background-color: whitesmoke;
+}
+.message_section{
+    position: fixed;
+    width: 25%;
+    height: 100vh;
+    right: 0%;
+    background: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-left: 1px solid #dfdbdb;
 }
