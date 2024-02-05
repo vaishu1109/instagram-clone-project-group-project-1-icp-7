@@ -10,16 +10,11 @@ body{
     position: fixed;
     width: 250px;
     height: 100vh;
-<<<<<<< HEAD
     background: whitesmoke;
     padding-top: 30px;
     padding-left: 30px;
-    
-   
-=======
-
->>>>>>> 2932b2fdfd718b7d7ae249da513b6cc31e1da49c
 }
+
 .logo img{
         width: 100px;
 }
