@@ -12,6 +12,10 @@ body{
     height: 100vh;
 
 }
+.logo{
+    padding-left: 25px;
+    padding-top: 25px;
+}
 .logo img{
         width: 100px;
 }
