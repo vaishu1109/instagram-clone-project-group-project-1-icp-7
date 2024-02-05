@@ -134,10 +134,19 @@
     padding-top: 30px;
     padding-left: 30px;
     border-left: 1px solid #dfdbdb;
+}
+.message_section .main{
     display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 300px;
 }
 .message_section .title{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
 }
 .message_section .right_sec{
     display: flex;
@@ -150,11 +159,27 @@
     height: 40px;
     border-radius: 50%;
     overflow: hidden;
-    margin-right: 5px;
-    border: 2px #e2336b solid;
+    margin-right: 10px;
+    border: 1px #dbd1d1 solid;
 }
 .message_section  img{
     border-radius: 50%;
     height: 40px;
     width: 40px;
+}
+.message_section .left_sec{
+    padding-right: 10px;
+    padding-top: 5px;
+    
+}
+.message_section .left_sec a{
+    text-decoration: none;
+    color: #0099ff;
+}
+.message_section .information{
+    margin: 40px 0;
+    color: #918686;
+}
+.message_section .information .bottom{
+    margin-top: 20px;
 }
