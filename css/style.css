@@ -2,8 +2,7 @@
 */
 body{
     padding: 0;
-    margin: 0;
-    
+    margin: 0; 
 }
 /*Common Sidebar Design */
 
@@ -11,13 +10,13 @@ body{
     position: fixed;
     width: 250px;
     height: 100vh;
-    background: black;
+    background: whitesmoke;
     padding-top: 30px;
     padding-left: 30px;
    
 }
 .logo img{
-        width: 200px;
+        width: 100px;
 }
 
 .menu_section{
@@ -29,7 +28,7 @@ body{
 .menu_section a{
     width: 100%;
     font-size: 1.1rem;
-    color: #fff;
+    color: black;
     display: flex;
     align-items: center;
     line-height: 55px;
@@ -61,7 +60,7 @@ body{
     padding-top: 10px;
     
 }
-  /* profile bio css*/
+  /* profile css*/
 .common-margin{
     margin-left: 90px;
     display: inline-flex;
