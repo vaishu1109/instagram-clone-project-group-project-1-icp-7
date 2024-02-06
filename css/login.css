@@ -6,7 +6,7 @@
     margin-left: 35%;
     width: 400px;
     
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .main .login{
     display: flex;
@@ -31,7 +31,7 @@
 .main .login button{
     width: 100%;
     border: none;
-    background-color: #8bcdf3;
+    background-color: #0099ff;
     color: white;
     border-radius: 5px;
     padding: 10px;
@@ -62,7 +62,7 @@
 }
 .main .sign_up a{
     text-decoration: none;
-    color: #8bcdf3;
+    color: #0099ff;
 
 }
 .navbar-footer{
