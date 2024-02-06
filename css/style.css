@@ -1,9 +1,7 @@
-/* buttons 
-*/
+/** buttons **/
 body{
     padding: 0;
-    margin: 0;
-    background-color: white;
+    margin: 0; 
 }
 /*Common Sidebar Design */
 
@@ -11,10 +9,11 @@ body{
     position: fixed;
     width: 250px;
     height: 100vh;
-    background: whitesmoke;
-    padding-top: 30px;
-    padding-left: 30px;
-   
+
+}
+.logo{
+    padding-left: 25px;
+    padding-top: 25px;
 }
 .logo img{
         width: 100px;
@@ -35,19 +34,12 @@ body{
     line-height: 55px;
     text-decoration: none;
 }
-.menu_section a :hover,.menu_section.i{
-    color: #e2336b;
-    
+.menu_section .option:hover{
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s;
 }
-.menu_section a:hover::before,
-.menu_section .active::before {
-    content: '';
-    position: absolute;
-    right: 0;
-    width: 2px;
-    height: 20px;
-    background: #e2336b;
-}
+
 .menu_section .icon {
     margin-right: 1rem;
     font-size: 25px;
@@ -58,5 +50,21 @@ body{
     width: 30px;
     margin-right: 1rem;
     border-radius: 50%;
+<<<<<<< HEAD
     padding-top: 10px
 }
+=======
+    padding-top: 10px;
+    
+}
+  /* profile css*/
+.common-margin{
+    margin-left: 90px;
+    display: inline-flex;
+    position: absolute;
+    height: 300px;
+    width: 900px;
+    top: 100px;
+  
+}
+>>>>>>> df6fd9f171ed49ff11862bbd914c97d56b3fbd8b
