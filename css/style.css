@@ -1,7 +1,7 @@
 /** buttons **/
 body{
     padding: 0;
-    margin: 0;
+    margin: 0; 
     background-color: white;
 }
 /*Common Sidebar Design */
@@ -13,6 +13,11 @@ body{
     background: whitesmoke;
     padding-top: 30px;
     padding-left: 30px;
+}
+
+.logo{
+    padding-left: 25px;
+    padding-top: 25px;
 }
 
 .logo img{
@@ -52,4 +57,14 @@ body{
     border-radius: 50%;
     padding-top: 10px;
     
+}
+  /* profile css*/
+.common-margin{
+    margin-left: 90px;
+    display: inline-flex;
+    position: absolute;
+    height: 300px;
+    width: 900px;
+    top: 100px;
+  
 }
