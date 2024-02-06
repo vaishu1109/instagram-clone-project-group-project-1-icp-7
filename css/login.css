@@ -1,0 +1,77 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    width: 400px;
+    
+    margin-top: 100px;
+}
+.main .login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #e0dede;
+    width: 100%;
+}
+.main .login .logo_instgram img{
+    width: 100px;
+    margin: 40px;
+}
+.main .login .user input{
+    border: none;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.main .login button{
+    width: 100%;
+    border: none;
+    background-color: #8bcdf3;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.main .login .login_with_fb{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+.main .login .forgot_pass{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.main .login a{
+    text-decoration: none;
+    color: rgb(6, 6, 59);
+}
+.main .sign_up{
+    margin-top: 10px;
+    padding: 20px;
+    border: 2px solid #e0dede;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+}
+.main .sign_up a{
+    text-decoration: none;
+    color: #8bcdf3;
+
+}
+.navbar-footer{
+    
+   text-align: center;  
+   margin-top: 40px;
+   color: gray;
+   position: fixed;
+   bottom: 50px;
+   left: 25%;
+   
+}
