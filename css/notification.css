@@ -88,6 +88,9 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
+
+/** notifications**/
+
 #in_all_caught,
 #in_all_caught i {
   position: relative;
@@ -102,7 +105,7 @@ body {
 }
 
 #ig-activity {
-  display: flex;
+
   font-size: 15.5px;
 }
 
@@ -111,9 +114,15 @@ body {
   justify-content: space-between;
   margin-bottom: 25px;
 }
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+
 .column-10{
 	padding-top: 14px;
 	padding-left: 12px;
+	margin-right: 200px;
 	
 }
 
@@ -142,4 +151,63 @@ body {
   z-index: 10;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#ig-activity>span
+{
+	font-size: 18.5px;
+	font-weight: 600;
+	display: block;
+	margin-bottom: 18px;
+}
+
+#ig-activity img.ia-user-image
+{
+	width: 50px;
+	border-radius: 100%;
+}
+
+#ig-activity .ia-user
+{
+	font-weight: 600;
+}
+
+#ig-activity .ia-time
+{
+	color: rgba(0,0,0,.75);
+}
+
+#ig-activity button
+{
+	border: none;
+	background-color: #0095f6;
+	color: #fff;
+	padding: 8px 16px;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: .3px;
+	border-radius: 8px;
+}
+
+#ig-activity img.ia-post
+{
+	width: 50px;
+}
+
+#ig-activity .ia-n-images
+{
+	position: relative;
+}
+
+#ig-activity .ia-n-images img
+{
+	position: absolute;
+	width: 42px;
+	border: 2.5px solid #fff;
+}
+
+#ig-activity .ia-n-images img:last-child
+{
+	margin-top: 12px;
+	margin-left: 8px;
 }
