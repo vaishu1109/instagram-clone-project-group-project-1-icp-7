@@ -86,17 +86,20 @@
     width: 30px;
     padding-left: 100px;
 }
-.profileimages{
-    width: 70px;
-    padding-top: 20px;
+.img{
+    display: flex;
+    justify-content: start;
+}
+.img .left{
+    display: flex;
     border-radius: 50%;
+    height: 40px;
+width: 40px;
 }
-.pname{
-    justify-content: center;
-}
-.msg1{
-    padding-top: 10px;
-    padding-left: 100px;
+.img .left img{
+border-radius: 50%;
+height: 40px;
+width: 40px;
 }
 
 
