@@ -11,6 +11,8 @@ body{
     height: 100vh;
 
 }
+
+
 .logo{
     padding-left: 25px;
     padding-top: 25px;
@@ -50,13 +52,9 @@ body{
     width: 30px;
     margin-right: 1rem;
     border-radius: 50%;
-<<<<<<< HEAD
     padding-top: 10px
 }
-=======
-    padding-top: 10px;
-    
-}
+
   /* profile css*/
 .common-margin{
     margin-left: 90px;
@@ -67,4 +65,3 @@ body{
     top: 100px;
   
 }
->>>>>>> df6fd9f171ed49ff11862bbd914c97d56b3fbd8b
