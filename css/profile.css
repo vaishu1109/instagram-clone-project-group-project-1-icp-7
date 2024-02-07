@@ -2,10 +2,12 @@
     position: absolute;
     left: 300px;
 }
+
 .profile-container{
     width: 1000px;
     height: 300px;
 }
+
 .Profile-photo{
     height: 200px;
     width: 200px;
@@ -13,37 +15,65 @@
     margin-top: 80px;
     margin-left: 70px;  
 }
+
 .profile-username{
     display: inline-flex;   
     height: 50px;
     width: 900px;
     position: absolute;
     justify-content: space-around;
-    top: 40px;
-    margin-left: -190px;
-    padding: 30px;
+    top: 60px;
+    margin-left: -115px; 
 }
-.profile-name{
-    margin-left: -200px;
+
+.profile-follow{
+    margin-left: -320px;
     margin-top: 8px;
-    
+    padding: 7px 20px;
+    border-radius: 9px ;
+    border: none;
+    background-color: #eceaeaf7;  
 }
+
+.profile-msg{
+    padding: 7px  20px;
+    border-radius: 9px ;
+    border: none;
+}
+
+.profile-request-btn{
+    padding: 7px 8px;
+    border-radius: 9px ;
+    border: none; 
+}
+
 .request-btn{
     height: 13px;
 }
-.follow{
+
+.followers{
     margin-top: 20px;
     margin-left: -80px;
 }
-.datta{
+
+.user-name{
     margin-top: 60px;
 }
+
 .bio{
     margin-top: 100px;
 }
+
 .other{
     margin-top: 140px;
 }
+
+.heighlight-div{ 
+    width: 600px;
+    height: 150px;
+    margin-top: 5px;
+}
+
 .heighlight-photo{
     height: 100px;
     width: 100px;
@@ -52,12 +82,7 @@
     justify-content: space-evenly;
     margin-right: 30px;
 }
-.heighlight-div{ 
-    width: 600px;
-    height: 150px;
-    margin-top: 5px;
 
-}
 .navbar{
     height: 30px;
     width: 100%;
@@ -67,10 +92,14 @@
     display: flex; 
     margin-top: 10px;
 }
+<<<<<<< HEAD
+
+=======
 .insta-icons{
     height: 20px;
     width: 20px;   
 }
+>>>>>>> f5ec477f505bb5ae6a50037ffe489283c2e529b8
 .post1{
     height: 310px;
     width: 310px;
@@ -78,11 +107,13 @@
     margin: 0 auto;;
     transition: 1s;
 }
+
 .navbar-footer{
     margin-top: 40px;
    text-align: center;  
    margin-bottom: 50px;  
 }
+
 .english{
     text-align: center;
     border: none;   
