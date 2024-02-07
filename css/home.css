@@ -1,24 +1,24 @@
 
 /* Story section Design*/
-.post_section{
+.post-section{
     position: absolute;
-    width: calc(70% - 250px);
-    left: 250px;
+    width: calc(75% - 200px);
+    left: 200px;
     background-color: white;
     top: 0;
     min-height: 100vh; 
     padding: 20px;
-    overflow: hidden;
+    overflow:hidden;
     border-left: 1px solid #dfdbdb;
 }
 .stories{
     display: flex;
     align-items: top;
     justify-content: end;
-   
+    margin-right: 10%;
     
 }
-.story_image{
+.story-image{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@
     border: 3px solid #e2336b;
     margin-left: 10px;
 }
-.story_image img{
+.story-image img{
     width: 60px;
     height: 60px;
     object-fit: cover;
@@ -37,7 +37,7 @@
     object-position: center;
     
 }
-.story_image .add{
+.story-image .add{
     position: absolute;
     display: flex;
     align-items: end;
@@ -45,14 +45,14 @@
     height: 90px;
     
 }
-.story_image .add button{
+.story-image .add button{
     border: none;
     background-color: #0066ff;
     border: 2px solid white;
     border-radius: 50%;
 }
 /* post section Design*/
-.post_section{
+.post-section{
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -78,7 +78,7 @@
     display: flex;
     align-items: center;
 }
-.post .top .username .profile_img{
+.post .top .username .profile-img{
     position: relative;
     width: 40px;
     height: 40px;
@@ -87,7 +87,7 @@
     margin-right: 5px;
     border: 2px #e2336b solid;
 }
-.post .top .username .profile_img img{
+.post .top .username .profile-img img{
     position: relative;
     width: 40px;
     height: 40px;
@@ -95,37 +95,43 @@
     overflow: cover;
     margin-right: 5px;
 }
-.post .post_image{
+.post .post-image{
     width: 100%;
 }
-.post .post_image img{
+.post .post-image img{
     width: 100%;
 }
-.share_section{
+.share-section{
     display: flex;
     justify-content: space-between;
 }
-.share_section i{
-    font-size: 25px;
-    padding: 5px;
+.share-section i{
+    font-size: 30px;
+    padding: 10px;
     padding-top: 15px;
+}
+.share-section i:hover{
+    color: gray;
+    transition: 0.2s;
 }
 .post .like{
     padding: 5px;
+    padding-left: 10px;
     font-size: 15px;
     font-weight: bold;
 }
 .comment{
     width: 100%;
 }
-.comment .comment_input{
-    width: 100%;
+.comment .comment-input{
+    width: 97%;
     border: none;
     font-size: 15px;
     outline: none;
+    padding-left: 10px;
     background-color: whitesmoke;
 }
-.message_section{
+.message-section{
     position: fixed;
     width: 25%;
     height: 100vh;
@@ -135,25 +141,25 @@
     padding-left: 30px;
     border-left: 1px solid #dfdbdb;
 }
-.message_section .main{
+.message-section .main{
     display: flex;
     flex-direction: column;
     align-items: start;
     width: 300px;
 }
-.message_section .title{
+.message-section .title{
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     
 }
-.message_section .right_sec{
+.message-section .right-sec{
     display: flex;
     justify-content: center;
 
 }
-.message_section .profile_photo{
+.message-section .profile-photo{
     position: relative;
     width: 40px;
     height: 40px;
@@ -162,24 +168,103 @@
     margin-right: 10px;
     border: 1px #dbd1d1 solid;
 }
-.message_section  img{
+.message-section  img{
     border-radius: 50%;
     height: 40px;
     width: 40px;
 }
-.message_section .left_sec{
+.message-section .left-sec{
     padding-right: 10px;
     padding-top: 5px;
     
 }
-.message_section .left_sec a{
+.message-section .left-sec a{
     text-decoration: none;
     color: #0099ff;
 }
-.message_section .information{
+.message-section .information{
     margin: 40px 0;
     color: #918686;
 }
-.message_section .information .bottom{
+.message-section .information .bottom{
     margin-top: 20px;
+}
+@media screen and (min-width:800px) and (max-width:1115px){
+    .post-section{
+        position: absolute;
+        width: calc(100% - 70px);
+        left: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-right: 100px;   
+    }
+    .message-section{
+        display: none;
+    }
+    .stories{
+        display: flex;
+        align-items: top;
+        justify-content: center; 
+    }
+}
+
+@media screen and (min-width:1115px) and (max-width:1300px){
+    .post-section{
+        position: absolute;
+        width: calc(75% - 70px);
+        left: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+    .stories{
+        display: flex;
+        align-items: top;
+        justify-content: center; 
+        margin-bottom: px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .message-section{
+        display: none;
+    }
+    .post-section{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        padding-left: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        
+    }
+    .post-section .post{
+        width: 90%;
+    }
+    .stories{
+        margin-left: 120px;
+        margin-bottom: 15px;
+        margin-top: 50px;
+    }
+    .story-image{
+       
+        width: 60px;
+        height:60px;
+    }
+    .story-image img{
+        width: 50px;
+        height: 50px;    
+    }
+    .story-image .add{
+        height: 80px;
+        
+    }
+    .story-image .add button{
+        border: none;
+        background-color: #0066ff;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
 }

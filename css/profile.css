@@ -92,7 +92,14 @@
     display: flex; 
     margin-top: 10px;
 }
+<<<<<<< HEAD
 
+=======
+.insta-icons{
+    height: 20px;
+    width: 20px;   
+}
+>>>>>>> f5ec477f505bb5ae6a50037ffe489283c2e529b8
 .post1{
     height: 310px;
     width: 310px;
