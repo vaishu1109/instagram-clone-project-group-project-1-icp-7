@@ -4,6 +4,7 @@
     width: 250px;
     height: 100vh;
 
+
 }
 
 
@@ -61,8 +62,8 @@
     height: 100%;
     width: 300px;
     background-color: white;
-    
     padding-top: 5px;
+   
     font-weight: bolder;
     font-size: 25px;
 
@@ -81,4 +82,22 @@
     font-size: 18px;
     margin-top: 20px;
 }
+.writemsg{
+    width: 30px;
+    padding-left: 100px;
+}
+.profileimages{
+    width: 70px;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+.pname{
+    justify-content: center;
+}
+.msg1{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+
 
