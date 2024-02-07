@@ -1,9 +1,14 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 35%;
+    
     width: 400px;
     
     margin-top: 50px;
@@ -16,9 +21,10 @@
     border: 2px solid #e0dede;
     width: 100%;
 }
-.main .login .logo_instgram img{
+.main .login .logo-instgram img{
     width: 100px;
-    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .main .login .user input{
     border: none;
@@ -37,13 +43,13 @@
     padding: 10px;
     margin-bottom: 20px;
 }
-.main .login .login_with_fb{
+.main .login .login-with-fb{
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
     
 }
-.main .login .forgot_pass{
+.main .login .forgot-pass{
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
@@ -52,7 +58,7 @@
     text-decoration: none;
     color: rgb(6, 6, 59);
 }
-.main .sign_up{
+.main .sign-up{
     margin-top: 10px;
     padding: 20px;
     border: 2px solid #e0dede;
@@ -60,7 +66,7 @@
     display: flex;
     justify-content: center;
 }
-.main .sign_up a{
+.main .sign-up a{
     text-decoration: none;
     color: #0099ff;
 
@@ -70,8 +76,7 @@
    text-align: center;  
    margin-top: 40px;
    color: gray;
-   position: fixed;
+   
    bottom: 50px;
-   left: 25%;
    
 }

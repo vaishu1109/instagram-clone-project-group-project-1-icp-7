@@ -2,20 +2,20 @@
 /* Story section Design*/
 .post-section{
     position: absolute;
-    width: calc(70% - 250px);
-    left: 250px;
+    width: calc(75% - 200px);
+    left: 200px;
     background-color: white;
     top: 0;
     min-height: 100vh; 
     padding: 20px;
-    overflow: hidden;
+    overflow:hidden;
     border-left: 1px solid #dfdbdb;
 }
 .stories{
     display: flex;
     align-items: top;
     justify-content: end;
-   
+    margin-right: 10%;
     
 }
 .story-image{
@@ -188,4 +188,78 @@
 }
 .message-section .information .bottom{
     margin-top: 20px;
+}
+@media screen and (min-width:800px) and (max-width:1115px){
+    .post-section{
+        position: absolute;
+        width: calc(100% - 70px);
+        left: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-right: 100px;   
+    }
+    .message-section{
+        display: none;
+    }
+    .stories{
+        display: flex;
+        align-items: top;
+        justify-content: center; 
+    }
+}
+
+@media screen and (min-width:1115px) and (max-width:1300px){
+    .post-section{
+        position: absolute;
+        width: calc(75% - 70px);
+        left: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+    .stories{
+        display: flex;
+        align-items: top;
+        justify-content: center; 
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .message-section{
+        display: none;
+    }
+    .post-section{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        
+    }
+    .stories{
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    .story-image{
+       
+        width: 60px;
+        height:60px;
+    }
+    .story-image img{
+        width: 50px;
+        height: 50px;    
+    }
+    .story-image .add{
+        height: 80px;
+        
+    }
+    .story-image .add button{
+        border: none;
+        background-color: #0066ff;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
 }
