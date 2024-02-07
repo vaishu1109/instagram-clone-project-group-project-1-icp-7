@@ -1,0 +1,106 @@
+
+.sidebar_section{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+
+
+}
+
+
+.logo{
+    padding-left: 10px;
+    padding-top: 20px;
+    
+}
+.logo img{
+        width: 35px;
+
+}
+.iconlast{
+    padding-top: 100px;
+}
+
+.menu_section{
+    
+        margin-top: 30px;
+        margin-left: 10px;
+    
+}
+.menu_section a{
+    width: 100%;
+    font-size: 1.1rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    line-height: 55px;
+    text-decoration: none;
+}
+.menu_section .option:hover{
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu_section .icon {
+    margin-right: 1rem;
+    font-size: 25px;
+
+}
+.menu_section .profile_image{
+    height: 30px;
+    width: 30px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    padding-top: 10px
+}
+
+
+.profilename{
+    margin-left: 100px;
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background-color: white;
+    padding-top: 5px;
+   
+    font-weight: bolder;
+    font-size: 25px;
+
+
+}
+
+
+.expandmore {
+    padding-top: 20px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.writemsg{
+    width: 30px;
+    padding-left: 100px;
+}
+.img{
+    display: flex;
+    justify-content: start;
+}
+.img .left{
+    display: flex;
+    border-radius: 50%;
+    height: 40px;
+width: 40px;
+}
+.img .left img{
+border-radius: 50%;
+height: 40px;
+width: 40px;
+}
+
+
+
