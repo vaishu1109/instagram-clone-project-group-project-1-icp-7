@@ -87,8 +87,8 @@
     width: 300px;
     font-size: 18px;
     margin-top: 20px;
-    
-font-family: roboto;
+font-size: 20px;    
+font-family: monospace;
 }
 .writemsg{
     width: 30px;
@@ -109,13 +109,42 @@ width: 50px;
     font-family: sans-serif;
 
 }
+.inbox{
+    font-size: 20px;
+}
 .newmessage{
     display: flex;
-    margin-left: 700px;
-    height: 100px;
+    margin-left: 675px;
+    
+}
+.msgicon{
     width: 100px;
+    height: 100px;
+    display: flex;
+}
+.txt{
+    margin-left: 800px;
+    font-family: "Roboto", sans-serif;
+width: 200px;
+}
+.instruction{
+    margin-left: 620px;
+    width: 650px;
+    font-family: "Roboto", sans-serif;
+
+
 }
 
+.sendmsgbtn{
+    height: 50px;
+    width: 200px;
+    display:block;
+    margin-left: 780px;
+    background-color: #3776ff;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: medium;
+}
 
 
 
