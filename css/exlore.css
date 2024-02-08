@@ -15,10 +15,10 @@ body{
     display: flex;
     flex-direction: column;
 }
-.mobile{
+.search{
     display: none;
 }
-.mobile-top{
+.mobile{
     display: none;
 }
 
@@ -109,41 +109,7 @@ body{
 
 }
 
-@media screen and (max-width:800px){
-    .sidebar-section{
-        display: none;
-    }
-    .mobile{
-        position: fixed;
-        bottom: 0;
-        background-color: white;
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        padding-top: 15px;
-        padding-bottom: 5px;
-        border-top: 1px solid #e2e1e1;
-    }
-    .mobile-view img{
-        height: 35px;
-    width: 35px;
-    margin-right: 1rem;
-    border-radius: 50%;
-    }
-    .mobile-view{
-        font-size: 30px;
-        
-    }
-    .mobile-view a{
-        color: black;
-    }
-    .mobile-view:hover{
-        font-size: 33px;
-        transition: 0.2s;
-    }
-    
-    
-}
+
 
 
 
@@ -158,6 +124,7 @@ body{
     border-left: 1px solid #dfdbdb;
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 .explore .post-reels{
     display: flex;
@@ -180,6 +147,7 @@ body{
 .explore .post-reels .middle-reel video{
     width: 100%;
     height:600px;
+    
 }
 .explore .post-reels .right-reel{
     width: 33.3%;
@@ -204,6 +172,23 @@ body{
         display: flex;
         justify-content: center;
     }
+    .explore .post-reels{
+        display: flex;
+        justify-content: center;
+        width: 78%;
+        }
+       .explore .post-reels .left-reel img{
+        width: 100%;
+        height: 250px;
+    }
+    .explore .post-reels .middle-reel video{
+        width: 100%;
+        height:505px;
+    }
+    .explore .post-reels .right-reel img{
+        width: 100%;
+        height: 250px;
+    }
 }
 @media screen and (min-width:1115px) and (max-width:1300px){
    
@@ -222,18 +207,82 @@ body{
     
 }
 @media screen and (max-width:800px){
+    .sidebar-section{
+        display: none;
+    }
    .explore{
     position: absolute;
     width: 100%;
     left: 0;
-    background-color: white;
-    top: 0;
-    min-height: 100vh; 
-    overflow:hidden;
-    border-left: 1px solid #dfdbdb;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
+    align-items: center; 
    } 
+   .explore .post-reels{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    }
+   .explore .post-reels .left-reel img{
+    width: 100%;
+    height: 200px;
+}
+.explore .post-reels .middle-reel video{
+    width: 100%;
+    height:405px;
+}
+.explore .post-reels .right-reel img{
+    width: 100%;
+    height: 200px;
+}
+.search{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.search input{
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(236, 234, 234);
+}
+   .mobile{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-top: 1px solid #e2e1e1;
+   }
+   .mobile-view img{
+    height: 35px;
+width: 35px;
+margin-right: 1rem;
+border-radius: 50%;
+}
+.mobile-view{
+    font-size: 30px;
+    
+}
+.mobile-view a{
+    color: black;
+}
+.mobile-view:hover{
+    font-size: 33px;
+    transition: 0.2s;
+}
     
 }
 
