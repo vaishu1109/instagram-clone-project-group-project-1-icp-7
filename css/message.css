@@ -109,6 +109,13 @@ width: 50px;
     font-family: sans-serif;
 
 }
+.newmessage{
+    display: flex;
+    margin-left: 700px;
+    height: 100px;
+    width: 100px;
+}
+
 
 
 
