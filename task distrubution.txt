@@ -5,3 +5,31 @@ message-yash
 search- ashwini
 reels- afrin
 Notification- sagar
+.mobile{
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        border-top: 1px solid #e2e1e1;
+    }
+    .mobile-view img{
+        height: 35px;
+    width: 35px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    }
+    .mobile-view{
+        font-size: 30px;
+        
+    }
+    .mobile-view a{
+        color: black;
+    }
+    .mobile-view:hover{
+        font-size: 33px;
+        transition: 0.2s;
+    }
