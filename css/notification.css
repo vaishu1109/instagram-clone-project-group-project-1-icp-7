@@ -27,6 +27,49 @@
 	padding-right: 12px;
 	border-right: 1px solid rgb(195, 188, 188);
 }
+.logo img{
+	width: 100px;
+	height: 30px;
+}
+.logo .logo-img{
+margin-right: 1rem;
+font-size: 30px;
+}
+
+.menu_section{
+
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+.menu_section a{
+width: 100%;
+font-size: 1.1rem;
+color: black;
+display: flex;
+align-items: center;
+line-height: 55px;
+text-decoration: none;
+}
+
+.menu_section .option:hover{
+font-size: 1.2rem;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.menu_section .icon {
+margin-right: 1rem;
+font-size: 25px;
+
+}
+.menu_section .profile_image{
+height: 30px;
+width: 30px;
+margin-right: 1rem;
+border-radius: 50%;
+padding-top: 10px;
+}
 
 .menu_section1 {
 	background-color: white;

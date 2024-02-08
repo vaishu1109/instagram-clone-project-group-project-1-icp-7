@@ -1,0 +1,161 @@
+.sidebar_section{
+
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+
+
+}
+
+
+.logo{
+    padding-left: 10px;
+    padding-top: 20px;
+    
+}
+.logo img{
+        width: 35px;
+
+}
+.iconlast{
+    padding-top: 100px;
+}
+
+.menu_section{
+    
+        margin-top: 30px;
+        margin-left: 10px;
+    
+}
+.menu_section a{
+    width: 100%;
+    font-size: 1.1rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    line-height: 55px;
+    text-decoration: none;
+
+}
+.menu_section .option:hover{
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu_section .icon {
+    margin-right: 1rem;
+    font-size: 25px;
+
+}
+.menu_section .profile_image{
+    height: 30px;
+    width: 30px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    padding-top: 10px
+}
+
+
+.profilename{
+    
+    margin-left: 70px;
+
+
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    border: 20px black;
+    background-color: white;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    padding-top: 5px;
+   padding-left: 5px;
+   padding-right: 2px;
+    font-weight: bolder;
+    font-size: 25px;
+
+
+
+}
+
+
+.expandmore {
+    padding-top: 20px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 18px;
+    margin-top: 20px;
+font-size: 20px;    
+font-family: monospace;
+}
+.writemsg{
+    width: 30px;
+    padding-left: 100px;
+}
+.profilepic{
+    border-radius: 50%;
+    height: 50px;
+width: 50px;
+
+}
+.msg-container{
+    display: flex;
+    
+}
+.msg-container:hover{
+    background-color: whitesmoke;
+    transition: 0.3s;
+}
+.username{
+    padding-left: 15px;
+    font-family: sans-serif;
+
+}
+.inbox{
+    font-size: 20px;
+}
+.newmessage{
+    display: flex;
+    margin-left: 675px;
+    
+}
+.msgicon{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+.txt{
+    margin-left: 800px;
+    font-family: "Roboto", sans-serif;
+width: 200px;
+}
+.instruction{
+    margin-left: 620px;
+    width: 650px;
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+.sendmsgbtn{
+    height: 50px;
+    width: 200px;
+    display:block;
+    margin-left: 780px;
+    background-color: #3776ff;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: medium;
+}
+
+
+
+
+
+
+
