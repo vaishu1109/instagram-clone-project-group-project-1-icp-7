@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 400px;
+    margin-top: 50px;
+}
+.main .login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #e0dede;
+    width: 100%;
+    border-radius: 5px;
+}
+.main .login .logo-instgram img{
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pargragraph{
+    display: flex;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: gray;
+}
+.main .login .user input{
+    border: none;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.main .login button{
+    width: 100%;
+    border: none;
+    background-color: #0099ff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.login-with-fb {
+    display: flex;
+}
+.main .login .login-with-fb{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+.main .login .forgot-pass{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.main .login a{
+    text-decoration: none;
+    color: rgb(6, 6, 59);
+}
+.main .sign-up{
+    margin-top: 10px;
+    padding: 20px;
+    border: 2px solid #e0dede;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.main .sign-up a{
+    text-decoration: none;
+    color: #0099ff;
+
+}
+.navbar-footer-login{
+    
+   text-align: center;  
+   margin-top: 40px;
+   color: gray;
+   
+   bottom: 100px;
+   
+}
