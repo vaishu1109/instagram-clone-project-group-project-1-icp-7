@@ -1,5 +1,5 @@
-
 .sidebar_section{
+
     position: fixed;
     width: 250px;
     height: 100vh;
@@ -57,15 +57,21 @@
 
 
 .profilename{
+    
     margin-left: 100px;
+    
+
     position: fixed;
     height: 100%;
     width: 300px;
+    border: 20px black;
     background-color: white;
+    border-color: black;
     padding-top: 5px;
    
     font-weight: bolder;
     font-size: 25px;
+
 
 
 }
@@ -81,26 +87,32 @@
     width: 300px;
     font-size: 18px;
     margin-top: 20px;
+    
+font-family: roboto;
 }
 .writemsg{
     width: 30px;
     padding-left: 100px;
 }
-.img{
-    display: flex;
-    justify-content: start;
-}
-.img .left{
-    display: flex;
+.profilepic{
     border-radius: 50%;
-    height: 40px;
-width: 40px;
+    height: 50px;
+width: 50px;
+
 }
-.img .left img{
-border-radius: 50%;
-height: 40px;
-width: 40px;
+.msg-container{
+    display: flex;
+    
 }
+.username{
+    padding-left: 15px;
+    font-family: sans-serif;
+
+}
+
+
+
+
 
 
 
