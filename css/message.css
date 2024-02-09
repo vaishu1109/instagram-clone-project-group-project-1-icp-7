@@ -107,8 +107,8 @@ width: 50px;
     display: flex;
     flex-direction: column;
 }
-.msg-container:hover{
-    background-color: whitesmoke;
+.sendmsgbtn:hover{
+    background-color: #256aff;
     transition: 0.3s;
 }
 .username{
@@ -121,7 +121,7 @@ width: 50px;
 }
 .newmessage{
     display: flex;
-    margin-left: 675px;
+    margin-left: 830px;
     
 }
 .msgicon{
@@ -155,6 +155,12 @@ width: 200px;
 .content{
     display: flex;
     padding:10px;
+}
+.content:hover{
+    background-color: whitesmoke;
+}
+.end{
+    background-color: aqua;
 }
 
 
