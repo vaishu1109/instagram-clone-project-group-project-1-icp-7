@@ -33,3 +33,147 @@ Notification- sagar
         font-size: 33px;
         transition: 0.2s;
     }
+
+<div class="profilename">
+    <span>x_yash_18 <img
+        src="C:\Users\Admin\Desktop\instagram-clone-project-group-project-1-icp-7\icons\expand_more_FILL0_wght400_GRAD0_opsz24 (1).png"
+        class="expandmore"><span>
+          <img src="../icons/write.png" class="writemsg">
+        </span>
+    </span>
+    
+    <div class="top-bar">
+
+      <div> <span class="msg">Messages</span> </div>
+      <div> <span class="request">requests</span></div>
+    </div></br>
+    <div>
+<div class="msg-container">
+    <img src="../img/yash_staus_image.jpg" class="profilepic" />
+   <div class="username">yaassh<br/><span class="inbox">hey!</span></div>
+
+   <div class="msg-container">
+    <img src="../img/yash_staus_image.jpg" class="profilepic" />
+   <div class="username">yaassh<br/><span class="inbox">hey!</span></div>
+   <div class="msg-container">
+    <img src="../img/yash_staus_image.jpg" class="profilepic" />
+   <div class="username">yaassh<br/><span class="inbox">hey!</span></div>
+</div><br/>
+<div class="msg-container">
+  <img src="../img/virat_kholi_status_image.jpeg" class="profilepic" />
+ <div class="username1">virat_kohli<br/><span class="inbox">sended a reel </span></div> <br/>
+
+ <div class="newmessage">
+ <img src="../icons/chat.png" class="msgicon" />
+ </div>
+ </div></br>
+ <div class="txt">Your messages</div></br>
+ <div class="instruction">
+  Send private photos and messages to a friend or group</div></br>
+<div><button class="sendmsgbtn">send message</button></div>
+
+
+
+
+.profilename{
+    
+    margin-left: 70px;
+
+
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    border: 20px black;
+    background-color: white;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    padding-top: 5px;
+   padding-left: 5px;
+   padding-right: 2px;
+    font-weight: bolder;
+    font-size: 25px;
+
+
+
+}
+
+
+.expandmore {
+    padding-top: 20px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 18px;
+    margin-top: 20px;
+font-size: 20px;    
+font-family: monospace;
+}
+.writemsg{
+    width: 30px;
+    padding-left: 100px;
+}
+.profilepic{
+    border-radius: 50%;
+    height: 50px;
+width: 50px;
+
+}
+.msg-container{
+    display: flex;
+    flex-direction: column;
+}
+.msg-container:hover{
+    background-color: whitesmoke;
+    transition: 0.3s;
+}
+.username{
+    padding-left: 15px;
+    font-family: sans-serif;
+
+}
+.inbox{
+    font-size: 20px;
+}
+.newmessage{
+    display: flex;
+    margin-left: 675px;
+    
+}
+.msgicon{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+.txt{
+    margin-left: 800px;
+    font-family: "Roboto", sans-serif;
+width: 200px;
+}
+.instruction{
+    margin-left: 620px;
+    width: 650px;
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+.sendmsgbtn{
+    height: 50px;
+    width: 200px;
+    display:block;
+    margin-left: 780px;
+    background-color: #3776ff;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: medium;
+}
+
+
+
+
+
+
+

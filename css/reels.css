@@ -8,8 +8,7 @@
   }
   
   body {
-    color: white;
-    background-color: black;
+   
     height: 100px;
     display: grid;
     place-items: center;
@@ -212,7 +211,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      color: black;
+      color: white;
     }
     .videoHeader img{
       height: 10px;
@@ -234,7 +233,7 @@
     .videoFooter__text {
       position: absolute;
       bottom: 0;
-      color: black;
+      color: white;
       display: flex;
       align-items: center;
       margin-bottom:20px;
@@ -257,9 +256,13 @@
       color: white;
       font-weight: 900;
       text-transform: inherit;
-      background: rgba(250, 245, 245, 0.5);
-      border: none;
+      background: transparent;
+      border: 0.1px solid white;
+      border-radius: 5px;
+      box-shadow: 0 0 40px 0.1px white;
       padding: 5px;
+      margin-left: 5px;
+      margin-bottom: 20px;
     }
     
     .videoFooter__ticker {
@@ -268,10 +271,10 @@
       margin-bottom: 20px;
       height: fit-content;
     }
-    .videoFooter__ticker .p1{
+    .videoFooter__ticker p{
       margin-left: 20px;
       margin-top: 10px;
-      color: black;
+      color: white;
       margin-right: 50px;
     }
     
@@ -284,7 +287,7 @@
       width: 70%;
       margin-right: 10px;
       margin-bottom: 20px;
-      color: black;
+      color: white;
     }
     .icons .material-icons{
       color: black;
@@ -324,4 +327,173 @@
     }
   
   
+   /* side bar csss */
+    .sidebar-section{
+      position: fixed;
+      width: 250px;
+      height: 100vh;
+      background: whitesmoke;
+      padding-top: 30px;
+      padding-left: 30px;
+      top: 0;
+      left: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 200px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+  .mobile{
+      display: none;
+  }
+  .mobile-top{
+      display: none;
+  }
+  
+  .logo{
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      width: 100%;
+      margin-top: 20px;
+      margin-left: 10px;
+      
+  }
+  
+  .logo img{
+          width: 100px;
+          height: 30px;
+  }
+  .logo .logo-img{
+      margin-right: 1rem;
+      font-size: 30px;
+  }
+  
+  .menu-section{
+      
+          margin-top: 10px;
+          margin-left: 10px;
+      
+  }
+  .menu-section a{
+      width: 100%;
+      font-size: 1.1rem;
+      color: black;
+      display: flex;
+      align-items: center;
+      line-height: 55px;
+      text-decoration: none;
+  }
+  
+  .menu-section .option:hover{
+      font-size: 1.2rem;
+      font-weight: bold;
+      transition: 0.3s;
+  }
+  
+  .menu-section .icon {
+      margin-right: 1rem;
+      font-size: 25px;
+  
+  }
+  .menu-section .profile_image{
+      height: 30px;
+      width: 30px;
+      margin-right: 1rem;
+      border-radius: 50%;
+      padding-top: 10px;
+  }
+  
+    /* profile css*/
+  .common-margin{
+      margin-left: 90px;
+      display: inline-flex;
+      position: absolute;
+      height: 300px;
+      width: 900px;
+      top: 100px;
     
+  }
+  
+  /*Media Query*/
+  
+  @media screen and (min-width:700px) and (max-width:1300px) {
+      .sidebar-section{
+          padding-left: 10px;
+          padding-right: 10px;
+          width: 70px;
+          height: 100vh;
+      
+      }
+      .logo .logo-png{
+         display: none;
+      }
+      .logo .logo-img{
+          margin-right: 1rem;
+          font-size: 30px;
+      }
+      .menu-section .option{
+          display: none;
+      }
+  
+  }
+  
+  @media screen and (max-width:700px){
+      .sidebar-section{
+          display: none;
+      }
+      .mobile{
+          position: fixed;
+          bottom: 0;
+          background-color: white;
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          padding-top: 15px;
+          padding-bottom: 5px;
+          border-top: 1px solid #e2e1e1;
+      }
+      .mobile-view img{
+          height: 35px;
+      width: 35px;
+      margin-right: 1rem;
+      border-radius: 50%;
+      }
+      .mobile-view{
+          font-size: 25px;
+          
+      }
+      .mobile-view a{
+          color: black;
+      }
+      .mobile-view:hover{
+          font-size: 33px;
+          transition: 0.2s;
+      }
+      .mobile-top{
+          position: fixed;
+          top: 0;
+          background-color: white;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          padding-top: 15px;
+          padding-bottom: 5px;
+          border-top: 1px solid #e2e1e1;
+          border-bottom: 1px solid #e2e1e1;
+      }
+      .mobile-top img{
+          width: 150px;
+          height: 40px;
+          border-radius: 0;
+      }
+      .mobile-top .mobile-view{
+          padding-left: 10px;
+          padding-right: 10px;
+      }
+      
+  }
+  
+  
+  
