@@ -26,9 +26,9 @@ This repository is still under development and We will continue to add more feat
 
 ## How to Contribute
 1. Fork the the project
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Make required changes and commit (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
+2. Create your clone branch 
+3. Make required changes and commit (git commit -m 'Add some feature')
+4. Push to the branch (git push )
 5. Create new Pull Request
 
 -----
