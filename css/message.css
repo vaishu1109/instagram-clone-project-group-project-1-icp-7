@@ -128,14 +128,16 @@ width: 50px;
     width: 100px;
     height: 100px;
     display: flex;
+    margin-left: 140px;
+    
 }
 .txt{
-    margin-left: 800px;
+    margin-left: 780px;
     font-family: "Roboto", sans-serif;
 width: 200px;
 }
 .instruction{
-    margin-left: 620px;
+    margin-left: 610px;
     width: 650px;
     font-family: "Roboto", sans-serif;
 
@@ -146,11 +148,12 @@ width: 200px;
     height: 50px;
     width: 200px;
     display:block;
-    margin-left: 780px;
+    margin-left: 765px;
     background-color: #3776ff;
     border-radius: 10px;
     color: aliceblue;
     font-size: medium;
+    margin-bottom: 50px;
 }
 
 
