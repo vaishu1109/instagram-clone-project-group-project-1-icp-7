@@ -86,7 +86,7 @@
 .navbar{
     height: 30px;
     width: 100%;
-    gap: 300px;
+    gap: 250px;
     position: relative;
     justify-content:center;
     display: flex; 

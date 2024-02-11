@@ -3,7 +3,6 @@ body{
     align-items: center;
     flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 .main{
     display: flex;
@@ -28,6 +27,13 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.pargragraph{
+    display: flex;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: gray;
+}
 .main .login .user input{
     border: none;
     padding: 10px;
@@ -44,6 +50,9 @@ body{
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 20px;
+}
+.login-with-fb {
+    display: flex;
 }
 .main .login .login-with-fb{
     display: flex;
@@ -80,6 +89,6 @@ body{
    margin-top: 40px;
    color: gray;
    
-   bottom: 50px;
+   bottom: 100px;
    
 }

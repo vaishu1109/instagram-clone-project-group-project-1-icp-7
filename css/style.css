@@ -2,11 +2,17 @@
 body{
     padding: 0;
     margin: 0; 
+    background-color: white;
 }
 /*Common Sidebar Design */
 
 .sidebar-section{
     position: fixed;
+    width: 250px;
+    height: 100vh;
+    background: whitesmoke;
+    padding-top: 30px;
+    padding-left: 30px;
     top: 0;
     left: 0;
     padding-left: 10px;
@@ -32,6 +38,7 @@ body{
     margin-left: 10px;
     
 }
+
 .logo img{
         width: 100px;
         height: 30px;
@@ -73,7 +80,7 @@ body{
     width: 30px;
     margin-right: 1rem;
     border-radius: 50%;
-    padding-top: 10px
+    padding-top: 10px;
 }
 
   /* profile css*/
@@ -89,7 +96,7 @@ body{
 
 /*Media Query*/
 
-@media screen and (min-width:800px) and (max-width:1300px) {
+@media screen and (min-width:700px) and (max-width:1300px) {
     .sidebar-section{
         padding-left: 10px;
         padding-right: 10px;
@@ -110,7 +117,7 @@ body{
 
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:700px){
     .sidebar-section{
         display: none;
     }
@@ -132,7 +139,7 @@ body{
     border-radius: 50%;
     }
     .mobile-view{
-        font-size: 30px;
+        font-size: 25px;
         
     }
     .mobile-view a{
