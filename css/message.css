@@ -1,3 +1,5 @@
+
+
 .sidebar_section{
 
     position: fixed;
@@ -118,13 +120,15 @@ width: 50px;
 .username{
     padding-left: 15px;
     font-family: sans-serif;
-
+font-weight: 100;
 }
 .inbox{
     font-size: 20px;
+ color: gray;
 }
 
 .containermsg{
+    
     position: absolute;
     top: 50%;
     left: 600px;
@@ -148,12 +152,16 @@ margin-left: -15px;
     margin-left: 780px;
     font-family: "Roboto", sans-serif;
 width: 200px;
+
+
 }
 
 .instruction{
-    margin-left: 610px;
+    margin-left: 640px;
     width: 650px;
     font-family: "Roboto", sans-serif;
+    font-size: large;
+    font-weight: 100;
 
 
 }
