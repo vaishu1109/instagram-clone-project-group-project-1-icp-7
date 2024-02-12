@@ -53,11 +53,16 @@ form .txt_field{
   
   }
   .button{
-  background-color:#007acc;
+  background-color:#0066ff;
   color:white;
-  padding:10px 10px 10px 10px;
+  padding:10px ;
   margin-left:180px;
   border-radius:10px ;
     margin-bottom:100px;
     margin-left: 80px;
+    border: none;
+  }
+  .button:hover{
+    background-color:#5e95e7;
+    transition: 0.5s;
   }
