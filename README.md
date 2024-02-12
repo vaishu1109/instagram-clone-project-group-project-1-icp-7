@@ -42,7 +42,7 @@ This repository is still under development and We will continue to add more feat
 Github Link : https://github.com/vaishu1109/instagram-clone-project-group-project-1-icp-7
 
 -----
-Netlify Link : 
+Netlify Link : https://instgram-clone-website.netlify.app/
 
 ----
 
