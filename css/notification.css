@@ -1,23 +1,102 @@
-
+body{
+	margin: 0%;
+	padding: 0%;
+	font-family: "Roboto", sans-serif;
+	background-size: 100% auto;
+	background-color: #fff;
+}
 .main-frame {
-	margin: 0;
-	padding: 0;
 	height: 100dvh;
 	width: 100%;
-	box-sizing: border-box;
 	display: flex;
 	position: static;
 	justify-content: space-between;
-	flex-direction: row;
 	align-items: stretch;
-	background-color:white;
+	background-color: white;
 }
 
-/** sidebar sectyion **/
+/** sidebar section 1**/
+
+.sidebar-section {
+	position: fixed;
+	width: 250px;
+	height: 100vh;
+	background: whitesmoke;
+	padding-top: 30px;
+	padding-left: 30px;
+	top: 0;
+	left: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 200px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 10px;
+
+}
+
+.logo img {
+	width: 100px;
+	height: 30px;
+}
+
+.logo .logo-img {
+	margin-right: 1rem;
+	font-size: 30px;
+}
+
+.menu-section {
+
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+.menu-section a {
+	width: 100%;
+	font-size: 1.1rem;
+	color: black;
+	display: flex;
+	align-items: center;
+	line-height: 55px;
+	text-decoration: none;
+}
+
+.menu-section .option:hover {
+	font-size: 1.2rem;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.menu-section .icon {
+	margin-right: 1rem;
+	font-size: 25px;
+
+}
+
+.menu-section .profile_image {
+	height: 30px;
+	width: 30px;
+	margin-right: 1rem;
+	border-radius: 50%;
+	padding-top: 10px;
+}
+/** sidebar section end 1 **/
+
+/** sidebar section 2 **/
 
 .sidebar-section1 {
 	position: fixed;
-	display: block;
+	display: absolute;
 	width: 48px;
 	height: 100dvh;
 	background: white;
@@ -27,48 +106,51 @@
 	padding-right: 12px;
 	border-right: 1px solid rgb(195, 188, 188);
 }
-.logo img{
+
+.logo img {
 	width: 100px;
 	height: 30px;
 }
-.logo .logo-img{
-margin-right: 1rem;
-font-size: 30px;
+
+.logo .logo-img {
+	margin-right: 1rem;
+	font-size: 30px;
 }
 
-.menu_section{
-
+.menu_section {
 	margin-top: 10px;
 	margin-left: 10px;
 
 }
-.menu_section a{
-width: 100%;
-font-size: 1.1rem;
-color: black;
-display: flex;
-align-items: center;
-line-height: 55px;
-text-decoration: none;
+
+.menu_section a {
+	width: 100%;
+	font-size: 1.1rem;
+	color: black;
+	display: flex;
+	align-items: center;
+	line-height: 55px;
+	text-decoration: none;
 }
 
-.menu_section .option:hover{
-font-size: 1.2rem;
-font-weight: bold;
-transition: 0.3s;
+.menu_section .option:hover {
+	font-size: 1.2rem;
+	font-weight: bold;
+	transition: 0.3s;
 }
 
 .menu_section .icon {
-margin-right: 1rem;
-font-size: 25px;
+	margin-right: 1rem;
+	font-size: 25px;
 
 }
-.menu_section .profile_image{
-height: 30px;
-width: 30px;
-margin-right: 1rem;
-border-radius: 50%;
-padding-top: 10px;
+
+.menu_section .profile_image {
+	height: 30px;
+	width: 30px;
+	margin-right: 1rem;
+	border-radius: 50%;
+	padding-top: 10px;
 }
 
 .menu_section1 {
@@ -92,6 +174,8 @@ padding-top: 10px;
 	cursor: pointer;
 }
 
+/** sidebar section end **/
+
 /** notifcation section **/
 
 .container-fluid {
@@ -102,18 +186,6 @@ padding-top: 10px;
 	width: 400px;
 	margin-left: 75px;
 	border-right: 1px solid rgb(195, 188, 188);
-}
-
-body {
-	font-family: "Roboto", sans-serif;
-	background-size: 100% auto;
-	background-color: #fff;
-}
-
-:root {
-	--app-primary-text-color: #010101;
-	--app-secondary-text-color: #737373;
-	--app-img-border-color: #fff;
 }
 
 #ig-app {
@@ -151,7 +223,6 @@ body {
 }
 
 #ig-activity {
-
 	font-size: 15.5px;
 }
 
@@ -159,19 +230,18 @@ body {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 25px;
+	width: 400px;
 }
-/**
+
 .row {
 	display: flex;
 	justify-content: space-between;
-} 
-**/
+}
+
 
 .column-10 {
+	width: 100%;
 	padding-top: 14px;
-	padding-left: 12px;
-	margin-right: 200px;
-
 }
 
 #in-all-caught {
@@ -196,15 +266,14 @@ body {
 	z-index: 9;
 }
 
-#in-all-caught i 
-{
+#in-all-caught i {
 	z-index: 10;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 #ig-activity>span {
-	
+
 	font-size: 18.5px;
 	font-weight: 600;
 	display: block;
@@ -217,12 +286,25 @@ body {
 	border-radius: 100%;
 }
 
-.row .column-7{
-text-align: left;
+.row .column-7 {
+	padding-left: 10px;
+	text-align: left;
+	width: 270px;
+	min-width: 270px;
+}
+
+.row .column-2 {
+	width: 55px;
+	min-width: 55px;
+}
+
+.row .column-3 {
+	width: 75px;
+	height: 50px;
 }
 
 
-#ig-activity .ia-user {
+#ig-activity #ia-user {
 	font-weight: 600;
 }
 
@@ -256,62 +338,83 @@ text-align: left;
 	border: 2.5px solid #fff;
 }
 
-#ig-activity .ia-n-images img:last-child
-{
+#ig-activity .ia-n-images img:last-child {
 	margin-top: 15px;
 	margin-left: 10px;
 }
 
-#ig-footer
-{  display: flex;
-	justify-content: space-evenly;
-	position: fixed;
-	width: 400px;
-	bottom: 0;
-	background-color: #fff;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	cursor: pointer;
-	border-top: 1px solid rgba(0,0,0,.1);
-}
+/** Media Quary **/
 
-#ig-footer div
-{
-	float: left;
-	width: 20%;
-	list-style: none;
-	text-align: center;
-	font-size: 30px;
-	font-weight: 700;
-}
+@media screen and (max-width: 600px) {
+	.container-fluid {
+		margin-left: 0px;
 
-#ig-footer i.fa-heart-o
-{
-	text-shadow: 1px 0 0 #000;
-}
-
-#ig-footer img
-{
-	width: 40px;
-	height: 40px;
-	border-radius: 100%;
-	margin-top: -4px;
+	}
 	
-}
-@media screen and (min-width: 600px){
-	.sidebar-section1{
-		display: block;
+	#ig-footer {
+		position: fixed;
+		width: 400px;
+		bottom: 0;
+		background-color: #fff;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		cursor: pointer;
+		border-top: 1px solid rgba(0, 0, 0, .1);
+	}
 
+	#ig-footer div {
+		float: left;
+		width: 20%;
+		list-style: none;
+		text-align: center;
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+	#ig-footer i.fa-heart-o {
+		text-shadow: 1px 0 0 #000;
+	}
+
+	#ig-footer img {
+		width: 40px;
+		height: 40px;
+		border-radius: 100%;
+		margin-top: -4px;
+	}
+	.sidebar-section{
+		display: none;
+	}
+	.sidebar-section1 {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+	.sidebar-section{
+		display: none;
+	}
+	#ig-footer {
+		display: none;
 	}
 }
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
-	.sidebar-section1{
-		display: block;
+@media screen and (min-width: 768px) {
+	.sidebar-section1 {
+		display: none;
 	}
-}
-@media screen and (min-width: 993px) and (max-width: 1200px){
-	#ig-footer{
-		display: block;
+
+	.container-fluid {
+		padding-left: 10px;
+		padding-right: 10px;
+		background-color: white;
+		display: flex;
+		height: 100vh;
+		width: 100%;
+		margin-left: 250px;
+		border-right: 1px solid rgb(195, 188, 188);
+	}
+	#ig-footer {
+		display: none;
 	}
 }
